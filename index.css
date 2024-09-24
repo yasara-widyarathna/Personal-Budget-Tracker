@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 48%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li span {
+    display: block;
+}
+
+h3 {
+    text-align: center;
+}
+
+.add-transaction {
+    color: green;
+}
+
+.subtract-transaction {
+    color: red;
+}
+
+
+button.submit {
+    background-color: #007bff; 
+}
+
+button.submit:hover {
+    background-color: #0056b3; 
+}
+
+button.remove {
+    background-color: #dc3545; 
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.remove:hover {
+    background-color: #c82333; 
+}
+
+
+select {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #1e9955;
+    border-radius: 4px;
+    background-color: #1e9955; 
+    color: #ffffff; 
+}
+
+select option {
+    background-color: #fff; 
+    color: #495057; 
+}
+
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+
